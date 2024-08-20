@@ -16,9 +16,26 @@
     font-family: "Bebas Neue", sans-serif;
 }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="font-roboto">
-    <header class="bg-[#FFFBF0] pl-4 pr-10 pb-10 md:pb-16">
+    <header class="bg-[#FFFBF0] pl-4 pr-10 pb-10 md:pb-24 pt-10">
+        <nav class="flex justify-between md:justify-around items-center">
+            <div>
+                <img class="h-7 md:h-14" src="icons/logo.png" alt="">
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex gap-x-14">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
         <!-- banner section -->
         <div class="md:flex md:items-center justify-around pt-10">
             <div>
